@@ -1,0 +1,50 @@
+Subject: Doctor's Appointment
+From: ferguson.anthony@oops.net
+To: oops_tech@oops.net
+Cc:
+Bcc:
+Date: Mon, 15 Mar 2021 20:51:06 +0000
+Message-ID: <161584146600.22130.16495164174905075248@oops.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7534160316820879308=="
+
+--===============7534160316820879308==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+All,
+
+I have a denist's appointment @ 8:30 am today --and will return after the appointment around 9:30am.
+
+Cheers,
+Anthony
+
+Cordially,
+Anthony K. Ferguson
+OOPS Inc.
+5206 Moreno Vista
+Port Kevin, NM 73446
+Tel: 206-326-3123
+
+--===============7534160316820879308==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+	<p>All,</p>
+
+	<p>I have a denist&#8217;s appointment @ 8:30 am today &#8212;and will return after the appointment around 9:30am.</p>
+
+	<p>Cheers,<br />
+Anthony</p>
+
+	<p>Cordially,<br />
+Anthony K. Ferguson<br />
+OOPS Inc.<br />
+5206 Moreno Vista<br />
+Port Kevin, NM 73446<br />
+Tel: 206-326-3123</p>
+
+--===============7534160316820879308==--

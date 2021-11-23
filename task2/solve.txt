@@ -1,0 +1,5 @@
+I did this manually.
+
+From the previous task, we know the four IPs and in this task, we are given the OOP subnet. Thus, we are able to identify what particular malicious requests were sent. There is an HTTP request to the /pressure endpoint, with some data being transferred from the LP to the target machine. Search the proxy.log file for pressure and there is just one entry at around 8:08am. We can use the IP in this entry, 10.16.47.131, to search the logins.json file. We identify that the machine used is the first workstation, with the first login for that being from ross.tara. Take the logon ID from the first instance of our affected workstation's IP.
+
+The logon ID is 0X320883.

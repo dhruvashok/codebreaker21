@@ -1,0 +1,10 @@
+Magic Start: 0x17f4b888
+Param CMD: 0x5600
+CMD Length: 0x0002
+CMD Init: 0x0002
+Param UUID: 0x5608
+Target UUID Length: 0x0010
+Target UUID: 0xa5ab4c56f761429f999c3e1d80eae388
+Magic End: 0xefacc346
+
+0x17f4b88856000002000256080010a5ab4c56f761429f999c3e1d80eae388efacc346

@@ -1,0 +1,29 @@
+Plaintext: 0x17f4b88856000002000256080010155bb388863e886eaab2c18c0919f964efacc346
+
+CT1: 0x5feaa060095769219820c000ff0df25f4a66dfc60175874d89ad774a5fd2aa8d5ee7d81a6cca22e3bfa7e63b5452b45d0021e6b251414711ee44dba98281de660280ba7de9714589cb7037ae2b26
+CT2: 0x7a9985b170c6c42104b0af2bcb9c835f03683b18d14685d54bda2204be2ef68e0402a16b702645117ca9065565950ea00112b0feb622097c692c312dbb24240eb5d6cbb39d305202e3d4156f2886
+
+
+public_key = 0x637b9cf51acc233db7b6b94ef0d51dd4f7f2f7db0f24703a9f5473ec8f7e6d50
+private_key = 0x16a7d505faa95e7530c516cb7b51d123d3f8edcf210ea57226b5d3cde768206b
+crypt_neg = [client public (32)][length header (4)][nonce (24)][enc_fingerprint (rest)]
+fingerprint = [os][version][username][timestamp]
+uuid_login = [length header (4)][nonce (24)][enc_data (50)]
+
+1. brute force to get timestamp, version, and username
+2. session key = sha256(f"{username}+{version}+{timestamp}") 
+3. use session key and UUID nonce to attempt to decrypt UUID payloads
+
+DIB #1 Key - root+0.4.1.1+1615896481
+DIB #2 Key - sukhendu+3.5.7.5+1615896491
+DIB #3 Key - ozzie+1.3.7.9+1615896521
+NOT #1 Key - gzl+1.5.8.8+1615896491
+NOT #2 Key - heddi+0.7.2.2+1615896499
+NOT #3 Key - ryder+1.8.1.5+1615896548 *best session*
+
+DIB #1 - 37ae8af1-a02a-473c-9ad0-10d6dc6ccc99
+DIB #2 - 7dc78409-da6e-4afb-af6f-bc41b3614608
+DIB #3 - 4936fc8b-2e41-41a5-8c93-ddc009756f03
+NOT #1 - d3b23274-53af-46c4-b978-d7b4a1cd2141
+NOT #2 - b6126501-ce66-4568-b0d9-c7d2d6ff028f
+NOT #3 - 0907d33d-7e67-4ca7-9258-9eed5463ec32
